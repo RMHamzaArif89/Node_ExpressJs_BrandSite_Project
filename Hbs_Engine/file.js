@@ -5,7 +5,7 @@ const hbs=require('express-handlebars')
 const port=8000;
 
 
-app.use('/static',express.static('static'))
+app.use(express.static('static'))
 
 app.set('view engine','hbs')
 
@@ -14,8 +14,8 @@ app.set('views',path.join(__dirname,'views'))
 app.get('/home',(req,res)=>{
     res.send('homefile')
 })
-app.get('/file',(req,res)=>{
-    res.render('file')
+app.get('/about',(req,res)=>{
+    res.render('about')
 })
 
 
