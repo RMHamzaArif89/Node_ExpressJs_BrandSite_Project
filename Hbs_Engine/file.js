@@ -20,6 +20,9 @@ app.get('/about',(req,res)=>{
 app.get('/login',(req,res)=>{
     res.render('login')
 })
+app.get('/gallery',(req,res)=>{
+    res.render('gallery')
+})
 
 
 

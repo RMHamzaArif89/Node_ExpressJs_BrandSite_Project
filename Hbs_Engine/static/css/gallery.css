@@ -1,0 +1,236 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-nav {
+    width: 100%;
+    height: 55px;
+    background:black;
+    
+
+}
+
+.con-nav {
+    width: 90%;
+    margin: auto;
+    height: 50px;
+
+
+}
+
+.con-nav .nav-left {
+    float: left;
+    font-size: 2.4rem;
+    color: gold;
+    font-family: serif;
+    padding: 4px 16px;
+}
+
+.con-nav .nav-right {
+    float: right;
+    padding: 8px 0px;
+    margin: 6px 0px;
+
+}
+
+.nav-right li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.nav-right li a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    width: 50px;
+    padding: 8px 6px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(145deg,rgb(0, 238, 255),rgb(0, 47, 255));
+
+}
+div.left{
+    background: red;
+    color: white;
+    width: 35px;
+    height: 35px;
+    padding: 6px 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+.left:hover{
+    background: green;
+    color: red;
+    cursor: pointer;
+}
+
+
+div.right{
+    background: red;
+    color: white;
+    width: 35px;
+    height: 35px;
+    padding: 6px 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+.right:hover{
+    background: green;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.con {
+    background: #f0efefe7;
+    width: 80%;
+    height: 80%;
+    overflow-x: scroll;
+    display: flex;
+}
+.con::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.con div{
+    flex: none;
+    display: grid;
+
+}
+
+.con .con-img {
+    width: 32%;
+    height: 100%;
+   
+    background-size: 100% 100%;
+    margin: 0 0.8%;
+
+
+}
+.con .con-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+.img-1{
+    background-image: url('/images2/bg-1.jpg');
+}
+.img-2{
+    background-image: url('/images2/bg-2.jpg');
+}
+.img-3{
+    background-image: url('/images2/bg-3.jpg');
+}
+.img-4{
+    background-image: url('/images2/bg-4.jpg');
+}
+.img-5{
+    background-image: url('/images2/bg-5.jpg');
+}
+.img-6{
+    background-image: url('/images2/bg-6.jpg');
+}
+.img-7{
+    background-image: url('/images2/img-1.jpg');
+}
+.img-8{
+    background-image: url('/images2/img-2.jpg');
+}
+.img-9{
+    background-image: url('/images2/img-3.jpg');
+}
+.img-10{
+    background-image: url('/images2/img-4.jpg');
+}
+.img-11{
+    background-image: url('/images2/img-5.jpg');
+}
+.img-12{
+    background-image: url('/images2/img-6.jpg');
+}
+.img-13{
+    background-image: url('/images2/img-7.jpg');
+}
+.img-14{
+    background-image: url('/images2/img-8.jpg');
+}
+.img-15{
+    background-image: url('/images2/img-9.jpg');
+}
+.img-16{
+    background-image: url('/images2/bg-alpha.jpg');
+}
+.img-17{
+    background-image: url('/images2/bg-alpha2.jpg');
+}
+.img-18{
+    background-image: url('/images2/bg-alpha5.jpg');
+}
+.img-19{
+    background-image: url('/images2/col-1.jpg');
+}
+.img-20{
+    background-image: url('/images2/col-2.jpg');
+}
