@@ -75,8 +75,6 @@ function phoneNum(){
 
 
 
-
-
 function collegeName(){
    clgNam=document.getElementById('clgName').value
    clglabel=document.querySelector('.lclg')
