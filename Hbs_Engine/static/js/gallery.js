@@ -8,7 +8,6 @@ e.preventDefault();
 con.scrolleft +=e.deltaY;
 });
 
-
 right.addEventListener('click',()=>{
     con.style.scrollBehavior = 'smooth';
     con.scrollLeft+=900;
