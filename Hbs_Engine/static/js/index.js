@@ -15,9 +15,6 @@ function nav_close() {
     document.getElementById('op').style.opacity='1'
 }
 
-
-
-
 var myIndex = 0;
 carousel();
 
